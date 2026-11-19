@@ -19,7 +19,7 @@ app.use(express.json());
 
 // Start command
 bot.start((ctx) => {
-    ctx.reply("Welcome! I am your FutureWise Telegram bot This is created by Ashwin,Sarthak,Pratik,Yash");
+    ctx.reply("Welcome I am your FutureWise Telegram bot This is created by Ashwin,Sarthak,Pratik,Yash");
 });
 
 // Help command
