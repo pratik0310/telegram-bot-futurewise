@@ -230,7 +230,7 @@ bot.on("text", async (ctx) => {
         await sendLong(ctx, reply);
     } catch (err) {
         console.error("Analysis error:", err);
-        await ctx.reply("Analysis failed. Please try again in a moment.");
+        await ctx.reply("Analysis failed. Please try again in a moment.",err);
     }
 });
 
